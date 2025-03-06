@@ -1,0 +1,155 @@
+/* Structure  */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* End Structer */
+/* Header  */
+.header {
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 20px;
+  border: 1px solid #ddd;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+.header__logo-icon {
+  width: 100px;
+}
+.header__logo-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+.header__search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.header__search-input {
+  width: 100%;
+  max-width: 400px;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  padding: 3px 7px;
+}
+.header__search-input:focus {
+  outline: none;
+}
+.header__account {
+  width: 70px;
+  margin-left: 15px;
+}
+.header__account-icon {
+  width: 60px;
+}
+
+/* End Header  */
+/* Nav  */
+.nav {
+  position: sticky;
+  top: 67.8px;
+  left: 0;
+}
+
+.nav__menu {
+  margin: 16px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+}
+
+.nav__menu-item {
+  padding: 3px 0;
+}
+
+.nav__menu-item a {
+  width: 80px;
+  padding: 5px;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.nav__menu-item a:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.nav__menu-item i {
+  margin-bottom: 5px;
+}
+
+.nav__menu-item span {
+  font-size: 14px;
+}
+
+/* End Nav  */
+/* Footer  */
+.footer {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+}
+.footer__contact {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer__item {
+  margin: 0 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footer__item a {
+  display: block;
+  border-radius: 50%;
+  background-color: #ddd;
+  padding: 5px;
+}
+.footer__item a i {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  display: block;
+}
+
+/* End Footer  */
+/* Main  */
+.main {
+  width: 100%;
+}
+
+/* End Main  */
+
+/*# sourceMappingURL=style.css.map */

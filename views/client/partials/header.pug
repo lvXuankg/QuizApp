@@ -1,2 +1,21 @@
-header.header 
-    h1 Header 
+header.header
+    .header-container
+        div(class="header__logo")
+            img(src="/client/images/logo_rm.png" class="header__logo-icon")
+            span.header__logo-title lvx1000 
+        
+        form(
+            header-search
+            class="header__search"
+        )
+            input(
+                action=""
+                class="header__search-input"
+                type="text"
+                placeholder="Tìm kiếm môn học..."
+            )
+        div(class="header__account")
+            img(
+                src="/client/images/user.png"
+                class="header__account-icon"
+            )

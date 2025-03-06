@@ -4,6 +4,8 @@ const app = express();
 const route = require("./routes/client/index.route");
 const port = process.env.PORT;
 
+// file tinh 
+app.use(express.static(`${__dirname}/public`));
 
 app.set("views", "./views");
 app.set("view engine", "pug");
